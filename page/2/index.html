@@ -159,7 +159,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/12/02/css-1/" data-id="clace0irf000g8otq975o74ji" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/12/02/css-1/" data-id="clace8vet000g50tqffgqe13q" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HTMLCSS/" rel="tag">HTMLCSS</a></li></ul>
@@ -199,7 +199,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/08/04/Dom-Scripting-8/" data-id="clace0ire000e8otqd7g04jld" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/08/04/Dom-Scripting-8/" data-id="clace8ves000e50tq7dkgd3qy" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="tag">读书笔记</a></li></ul>
@@ -240,55 +240,11 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/08/04/Dom-Scripting-7/" data-id="clace0ird000b8otqftmzfb6z" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/08/04/Dom-Scripting-7/" data-id="clace8ver000b50tqd9725czl" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="tag">读书笔记</a></li></ul>
 
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-Ajax补充" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2021/08/03/Ajax%E8%A1%A5%E5%85%85/" class="article-date">
-  <time datetime="2021-08-03T02:51:24.000Z" itemprop="datePublished">2021-08-03</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/08/03/Ajax%E8%A1%A5%E5%85%85/">Ajax补充</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="HTTP协议"><a href="#HTTP协议" class="headerlink" title="HTTP协议"></a><em>HTTP协议</em></h1><p>一种与服务器交流的规则</p>
-<h2 id="请求报文"><a href="#请求报文" class="headerlink" title="请求报文"></a>请求报文</h2><p>重点是格式与参数</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">请求行    POST   (URL)/S?IE=UTF-8     (HTTP协议版本)HTTP/1.1</span><br><span class="line">请求头    Host: atguigu.com</span><br><span class="line">            Cookie: name=guigu</span><br><span class="line">            Content-ttype: application/x-www/form-urlencoded</span><br><span class="line">            User-Agent: chrome 83</span><br><span class="line">空行</span><br><span class="line">请求体    username+admin&amp;password=admin</span><br></pre></td></tr></table></figure>
-<h2 id="响应报文"><a href="#响应报文" class="headerlink" title="响应报文"></a>响应报文</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">行      (HTTP协议版本)HTTP/1.1  (响应状态码)200     (对应状态)OK</span><br><span class="line">头      Content-Type: text/html;charset=utf-8</span><br><span class="line">        Content-length: 2048</span><br><span class="line">        Content-encoding: gzip</span><br><span class="line">空行</span><br><span class="line">体      &lt;html&gt;</span><br><span class="line">            &lt;head&gt;</span><br><span class="line">            &lt;body&gt;</span><br><span class="line">                &lt;h1&gt;xxx&lt;/h1&gt;</span><br><span class="line">            &lt;/body&gt;</span><br><span class="line">        &lt;/html&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="基本案例"><a href="#基本案例" class="headerlink" title="基本案例"></a>基本案例</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">title</span>&gt;</span>AJAX GET 请求<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="css"></span></span><br><span class="line"><span class="css">        <span class="selector-id">#result</span>&#123;</span></span><br><span class="line"><span class="css">            <span class="attribute">width</span>: <span class="number">200px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">height</span>: <span class="number">100px</span>;</span></span><br><span class="line"><span class="css">            <span class="attribute">border</span>: solid <span class="number">1px</span> <span class="number">#90b</span>;</span></span><br><span class="line"><span class="css">        &#125;</span></span><br><span class="line"><span class="css">    </span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">button</span>&gt;</span>点击发送请求<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;result&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h2 id="express框架"><a href="#express框架" class="headerlink" title="express框架"></a>express框架</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//1.引入express</span></span><br><span class="line"><span class="keyword">const</span> express = <span class="built_in">require</span>(<span class="string">&#x27;express&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">//2.创建应用对象</span></span><br><span class="line"><span class="keyword">const</span> app = express();</span><br><span class="line"></span><br><span class="line"><span class="comment">//3.创建路由规则</span></span><br><span class="line"><span class="comment">// request 是对请求报文的封装</span></span><br><span class="line"><span class="comment">// response 是对响应报文的封装</span></span><br><span class="line">app.get(<span class="string">&#x27;/&#x27;</span>, <span class="function">(<span class="params">request, response</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="comment">//设置响应</span></span><br><span class="line">    response.send(<span class="string">&#x27;HELLO EXPRESS&#x27;</span>)</span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="comment">//4.监听端口启动服务</span></span><br><span class="line">app.listen(<span class="number">8000</span>, <span class="function">()=&gt;</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;服务器已启动，8000端口监听中&quot;</span>)</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-<h2 id="AJAX请求的基本操作"><a href="#AJAX请求的基本操作" class="headerlink" title="AJAX请求的基本操作"></a>AJAX请求的基本操作</h2><p>在基本案例后增加script标签</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">    <span class="comment">//获取button元素</span></span></span><br><span class="line"><span class="javascript">    <span class="keyword">const</span> btn = <span class="built_in">document</span>.getElementsByTagName(<span class="string">&#x27;button&#x27;</span>)[<span class="number">0</span>];</span></span><br><span class="line"><span class="javascript">    <span class="keyword">const</span> result = <span class="built_in">document</span>.getElementById(<span class="string">&#x27;result&#x27;</span>);</span></span><br><span class="line"><span class="javascript">    <span class="comment">//绑定事件</span></span></span><br><span class="line"><span class="javascript">    btn.onclick = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">        <span class="comment">//1.创建对象</span></span></span><br><span class="line"><span class="javascript">        <span class="keyword">const</span> xhr = <span class="keyword">new</span> XMLHttpRequest();</span></span><br><span class="line"><span class="javascript">        <span class="comment">//2.初始化 设置请求方法和URL</span></span></span><br><span class="line"><span class="javascript">        xhr.open(<span class="string">&#x27;GET&#x27;</span>, <span class="string">&#x27;http://127.0.0.1:8000/server&#x27;</span>)</span></span><br><span class="line"><span class="javascript">        <span class="comment">//3.发送</span></span></span><br><span class="line"><span class="javascript">        xhr.send();</span></span><br><span class="line"><span class="javascript">        <span class="comment">//4.事件绑定 处理服务端的返回结果</span></span></span><br><span class="line"><span class="javascript">        xhr.onreadystatechange = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">if</span>(xhr.readyState === <span class="number">4</span>)&#123;</span></span><br><span class="line"><span class="javascript">                <span class="comment">//2xx都是成功</span></span></span><br><span class="line"><span class="javascript">                <span class="keyword">if</span>(xhr.status &gt;= <span class="number">200</span> &amp;&amp; xhr.status &lt; <span class="number">300</span>)&#123;</span></span><br><span class="line"><span class="javascript">                    <span class="comment">//处理结果 行 头 空行 体</span></span></span><br><span class="line"><span class="javascript">                    <span class="comment">//响应行</span></span></span><br><span class="line"><span class="javascript">                    <span class="comment">// console.log(xhr.status);//状态码</span></span></span><br><span class="line"><span class="javascript">                    <span class="comment">// console.log(xhr.statusText);//状态字符串</span></span></span><br><span class="line"><span class="javascript">                    <span class="comment">// console.log(xhr.getAllResponseHeaders());//所有响应头</span></span></span><br><span class="line"><span class="javascript">                    <span class="comment">// console.log(xhr.response);//响应体</span></span></span><br><span class="line"><span class="javascript">                    <span class="comment">//设置result文本</span></span></span><br><span class="line"><span class="javascript">                    result.innerHTML = xhr.response;</span></span><br><span class="line"><span class="javascript">                &#125;<span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">                &#125;</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">        &#125;</span></span><br><span class="line"><span class="javascript">    &#125;</span></span><br><span class="line"><span class="javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2021/08/03/Ajax%E8%A1%A5%E5%85%85/" data-id="clace0ir200008otqftcs4mnf" class="article-share-link">Share</a>
-      
-      
     </footer>
   </div>
   
@@ -345,7 +301,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/07/30/Dom-Scripting-6/" data-id="clace0ird00098otqdzqsa51m" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/07/30/Dom-Scripting-6/" data-id="clace8veq000950tq20qzahlj" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="tag">读书笔记</a></li></ul>
@@ -396,7 +352,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/07/29/Dom-Scripting-5/" data-id="clace0irb00068otqedtacl5t" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/07/29/Dom-Scripting-5/" data-id="clace8vep000650tqach35d6h" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="tag">读书笔记</a></li></ul>
@@ -467,7 +423,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/07/28/Dom-Scripting-4/" data-id="clace0irb00058otq1f3khtxv" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/07/28/Dom-Scripting-4/" data-id="clace8veo000550tq5licgglj" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="tag">读书笔记</a></li></ul>
@@ -521,7 +477,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/07/28/Dom-Scripting-3/" data-id="clace0ira00048otq9nyhdyfb" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/07/28/Dom-Scripting-3/" data-id="clace8veo000450tqfa7i7mmx" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="tag">读书笔记</a></li></ul>
@@ -575,7 +531,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/07/28/Dom-Scripting-2/" data-id="clace0ir800028otq16gd6zv3" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/07/28/Dom-Scripting-2/" data-id="clace8vem000250tq7pdqga86" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="tag">读书笔记</a></li></ul>
@@ -639,7 +595,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2021/07/27/Dom%20Scripting%20%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" data-id="clace0ir600018otq0nvdc6kp" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2021/07/27/Dom%20Scripting%20%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" data-id="clace8vek000150tqgo16g4u9" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" rel="tag">读书笔记</a></li></ul>
